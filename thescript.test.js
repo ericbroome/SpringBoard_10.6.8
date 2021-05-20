@@ -14,7 +14,7 @@ describe("Object destructuring 2", () => {
 
 
 describe("Object destructuring 3", () => {
-    it("", () => {
+    it("Assembles an array of strings from destructured object properties", () => {
         expect(objectDestructuring_3()).toEqual(
             [
                 'Your name is Alejandro and you like purple',
@@ -26,7 +26,7 @@ describe("Object destructuring 3", () => {
 });
 
 describe("Array destructuring 1", () => {
-    it("", () => {
+    it("Destructures an array into variable names", () => {
         expect(arrayDestructuring_1()).toEqual(
             [
                 'Maya',
@@ -38,7 +38,7 @@ describe("Array destructuring 1", () => {
 });
 
 describe("Array destructuring 2", () => {
-    it("", () => {
+    it("Destructures an array into variables with unused elements into a new array", () => {
         expect(arrayDestructuring_2()).toEqual(
             ['Raindrops on roses',
             'whiskers on kittens',
@@ -48,7 +48,7 @@ describe("Array destructuring 2", () => {
 });
 
 describe("Array destructuring 3", () => {
-    it("", () => {
+    it("Swaps 2 out of three elements in an array", () => {
         expect(arrayDestructuring_3()).toEqual([10, 30, 20]);
     });
 });
